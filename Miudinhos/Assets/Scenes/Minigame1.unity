@@ -791,7 +791,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 157069989}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.31, y: 3.45, z: -6.53}
+  m_LocalPosition: {x: -17.42, y: 3.45, z: 14.72}
   m_LocalScale: {x: 2.2676, y: 0.056690004, z: 2.2676}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4976,7 +4976,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundedPlayer: 0
-  playerSpeed: 5
+  playerSpeed: 10
   jumpHeight: 3
   gravityValue: -9.81
 --- !u!114 &1691421875
