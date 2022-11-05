@@ -21,17 +21,15 @@ public class PlayerMove : MonoBehaviour
         playerInput = gameObject.GetComponent<PlayerInput>();
     }
 
-    void Update()
+    //Trata dos pulos do player
+    private void Update()
     {
         groundedPlayer = controller.isGrounded;
+
         if (groundedPlayer && playerVelocity.y < 0)
         {
             playerVelocity.y = 0f;
         }
-
-        Vector2 input = playerInput.actions["Move"].ReadValue<Vector2>();
-        Vector3 move = new Vector3(input.x, 0f, input.y);
-        controller.Move(move * Time.deltaTime * playerSpeed);
 
         if (playerInput.actions["Jump"].triggered && groundedPlayer)
         {
@@ -41,4 +39,14 @@ public class PlayerMove : MonoBehaviour
         playerVelocity.y += gravityValue * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);
     }
+
+    //Trata da movimentação
+    void FixedUpdate()
+    {
+
+        Vector2 input = playerInput.actions["Move"].ReadValue<Vector2>();
+        Vector3 move = new Vector3(input.x, 0f, input.y);
+        controller.Move(move * Time.deltaTime * playerSpeed);
+
+    } 
 }
