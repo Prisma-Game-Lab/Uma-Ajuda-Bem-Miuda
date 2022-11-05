@@ -20,7 +20,6 @@ public class DropObject : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("entrei");
         if (other.gameObject.CompareTag("Player"))
         {
             if (player.GetComponent<PlayerCarry>().isCarrying)
@@ -32,9 +31,10 @@ public class DropObject : MonoBehaviour
 
                 Vector3 offset = new Vector3(0f, 0.5f, 0f);
                 placedObj.gameObject.transform.position = this.gameObject.transform.position + offset;
+
+                this.gameObject.GetComponent<SphereCollider>().enabled = false;
             }
 
-            this.gameObject.GetComponent<SphereCollider>().enabled = false;
         }
     }
 }
