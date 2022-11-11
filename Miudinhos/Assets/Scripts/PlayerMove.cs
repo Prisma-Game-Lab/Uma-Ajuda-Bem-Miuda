@@ -24,7 +24,7 @@ public class PlayerMove : MonoBehaviour
     //Trata dos pulos do player
     private void Update()
     {
-        groundedPlayer = controller.isGrounded;
+       
 
         if (groundedPlayer && playerVelocity.y < 0)
         {
@@ -38,6 +38,7 @@ public class PlayerMove : MonoBehaviour
 
         playerVelocity.y += gravityValue * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);
+        groundedPlayer = controller.isGrounded;
     }
 
     //Trata da movimentação
