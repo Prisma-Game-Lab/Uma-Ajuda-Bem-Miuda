@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 11064912}
   - component: {fileID: 11064911}
   - component: {fileID: 11064910}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -257,7 +257,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 42120006}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vaso 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -377,22 +377,78 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a8ed33b17081cfb4cbcafc28266ce9a0, type: 2}
+    - target: {fileID: -7029948723529949830, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -6629093867720928530, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -6517886170049766096, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -6005929327010318596, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: -4535744059852909316, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 78c8ac524e9f1b446a25217490dd4109, type: 2}
+    - target: {fileID: -4399444731621280458, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: -2245623774801616189, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 78c8ac524e9f1b446a25217490dd4109, type: 2}
+    - target: {fileID: -1245732381354561849, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -998708227812776082, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 451101741931190486, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
       propertyPath: m_Name
       value: Vaso 3 florzinhas (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 974584544777506935, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 78c8ac524e9f1b446a25217490dd4109, type: 2}
+    - target: {fileID: 2891746525080496957, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5837523472550796488, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5922001041595979461, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959026430977397170, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
 --- !u!1001 &81319108
@@ -458,6 +514,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8678334890876928072, guid: c853e4f9768a7db4c8e0eadfdfb244f0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -4672927271302217132, guid: c853e4f9768a7db4c8e0eadfdfb244f0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: -4672927271302217132, guid: c853e4f9768a7db4c8e0eadfdfb244f0, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -466,13 +530,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vaso 1 (sem girassol t-t) (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c853e4f9768a7db4c8e0eadfdfb244f0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5233112405309087440, guid: c853e4f9768a7db4c8e0eadfdfb244f0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5233112405309087440, guid: c853e4f9768a7db4c8e0eadfdfb244f0, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8821623529969584324, guid: c853e4f9768a7db4c8e0eadfdfb244f0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8821623529969584324, guid: c853e4f9768a7db4c8e0eadfdfb244f0, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9022063724379732231, guid: c853e4f9768a7db4c8e0eadfdfb244f0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c853e4f9768a7db4c8e0eadfdfb244f0, type: 3}
@@ -906,7 +986,7 @@ GameObject:
   - component: {fileID: 185789664}
   - component: {fileID: 185789663}
   - component: {fileID: 185789662}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Luminaria
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1026,7 +1106,7 @@ GameObject:
   - component: {fileID: 252902810}
   - component: {fileID: 252902809}
   - component: {fileID: 252902808}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vaso 11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1121,7 +1201,7 @@ GameObject:
   m_Component:
   - component: {fileID: 260612743}
   - component: {fileID: 260612742}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: flor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1295,7 +1375,7 @@ GameObject:
   m_Component:
   - component: {fileID: 289682870}
   - component: {fileID: 289682869}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: flor (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1467,7 +1547,7 @@ GameObject:
   m_Component:
   - component: {fileID: 362436807}
   - component: {fileID: 362436806}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: plantinha (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1553,7 +1633,7 @@ GameObject:
   - component: {fileID: 373399424}
   - component: {fileID: 373399423}
   - component: {fileID: 373399422}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Concha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1765,7 +1845,7 @@ GameObject:
   - component: {fileID: 412593066}
   - component: {fileID: 412593065}
   - component: {fileID: 412593064}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Parede (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2152,7 +2232,7 @@ GameObject:
   m_Component:
   - component: {fileID: 539047026}
   - component: {fileID: 539047027}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: flor (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2304,7 +2384,7 @@ GameObject:
   - component: {fileID: 628575374}
   - component: {fileID: 628575373}
   - component: {fileID: 628575372}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Xicara
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2401,7 +2481,7 @@ GameObject:
   - component: {fileID: 631989700}
   - component: {fileID: 631989699}
   - component: {fileID: 631989698}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Parede
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2498,7 +2578,7 @@ GameObject:
   - component: {fileID: 639044514}
   - component: {fileID: 639044513}
   - component: {fileID: 639044512}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Jarra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2592,7 +2672,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 646714756}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cenario
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2650,7 +2730,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 676770084}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vaso 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2682,7 +2762,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 693976991}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vaso 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2812,7 +2892,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 723465274}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vaso 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3056,6 +3136,101 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28a5e79925e3ce04a82856c16a572cbe, type: 3}
+--- !u!1 &808116123
+GameObject:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 808116124}
+  - component: {fileID: 808116127}
+  - component: {fileID: 808116126}
+  - component: {fileID: 808116128}
+  m_Layer: 0
+  m_Name: cm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &808116124
+Transform:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808116123}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.00041085482, y: -1.6786519, z: 6.851859}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1483127285}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &808116126
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808116123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4044717213e31446939f7bd49c896ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjectOffset: {x: 0, y: 0, z: 0}
+  m_LookaheadTime: 0
+  m_LookaheadSmoothing: 0
+  m_LookaheadIgnoreY: 1
+  m_HorizontalDamping: 0.5
+  m_VerticalDamping: 0.5
+  m_ScreenX: 0.5
+  m_ScreenY: 0.5
+  m_DeadZoneWidth: 0
+  m_DeadZoneHeight: 0
+  m_SoftZoneWidth: 0.8
+  m_SoftZoneHeight: 0.8
+  m_BiasX: 0
+  m_BiasY: 0
+  m_CenterOnActivate: 1
+--- !u!114 &808116127
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808116123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &808116128
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808116123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa7155796051b734daa718462081dc5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BindingMode: 1
+  m_FollowOffset: {x: 0, y: 5.33, z: -16.03}
+  m_XDamping: 1
+  m_YDamping: 1
+  m_ZDamping: 1
+  m_AngularDampingMode: 0
+  m_PitchDamping: 0
+  m_YawDamping: 1
+  m_RollDamping: 0
+  m_AngularDamping: 0
 --- !u!1 &829400844
 GameObject:
   m_ObjectHideFlags: 0
@@ -3068,7 +3243,7 @@ GameObject:
   - component: {fileID: 829400848}
   - component: {fileID: 829400847}
   - component: {fileID: 829400846}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vaso 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3165,7 +3340,7 @@ GameObject:
   - component: {fileID: 834374002}
   - component: {fileID: 834374001}
   - component: {fileID: 834374000}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vaso 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3262,6 +3437,7 @@ GameObject:
   - component: {fileID: 834766467}
   - component: {fileID: 834766466}
   - component: {fileID: 834766465}
+  - component: {fileID: 834766469}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: Untagged
@@ -3276,7 +3452,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 834766464}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 867079d2ea7a8f344a0ac2d41ee1eb0b, type: 3}
   m_Name: 
@@ -3340,14 +3516,48 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 834766464}
-  m_LocalRotation: {x: 0.20508395, y: -0, z: -0, w: 0.9787444}
-  m_LocalPosition: {x: 0, y: 9.58, z: -14.48}
+  m_LocalRotation: {x: 0.15981266, y: 0.000000016985235, z: -0.0000000027497977, w: 0.9871474}
+  m_LocalPosition: {x: 0, y: 6.33, z: -16.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 23.669, y: 0, z: 0}
+--- !u!114 &834766469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834766464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowDebugText: 0
+  m_ShowCameraFrustum: 1
+  m_IgnoreTimeScale: 0
+  m_WorldUpOverride: {fileID: 0}
+  m_UpdateMethod: 2
+  m_BlendUpdateMethod: 1
+  m_DefaultBlend:
+    m_Style: 1
+    m_Time: 2
+    m_CustomCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  m_CustomBlends: {fileID: 0}
+  m_CameraCutEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_CameraActivatedEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &885582420
 GameObject:
   m_ObjectHideFlags: 0
@@ -3358,7 +3568,7 @@ GameObject:
   m_Component:
   - component: {fileID: 885582422}
   - component: {fileID: 885582421}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: plantinha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3444,7 +3654,7 @@ GameObject:
   - component: {fileID: 966729976}
   - component: {fileID: 966729975}
   - component: {fileID: 966729974}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vaso 13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3541,7 +3751,7 @@ GameObject:
   - component: {fileID: 968004431}
   - component: {fileID: 968004430}
   - component: {fileID: 968004429}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Suco (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3638,7 +3848,7 @@ GameObject:
   - component: {fileID: 970949182}
   - component: {fileID: 970949181}
   - component: {fileID: 970949180}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pote
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3735,7 +3945,7 @@ GameObject:
   - component: {fileID: 1000536991}
   - component: {fileID: 1000536990}
   - component: {fileID: 1000536989}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Xicara (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3917,7 +4127,7 @@ GameObject:
   - component: {fileID: 1018677519}
   - component: {fileID: 1018677518}
   - component: {fileID: 1018677517}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Espremedor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4012,7 +4222,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1041857651}
   - component: {fileID: 1041857652}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: plantinha (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4196,22 +4406,78 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a8ed33b17081cfb4cbcafc28266ce9a0, type: 2}
+    - target: {fileID: -7029948723529949830, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -6629093867720928530, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -6517886170049766096, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -6005929327010318596, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: -4535744059852909316, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 78c8ac524e9f1b446a25217490dd4109, type: 2}
+    - target: {fileID: -4399444731621280458, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: -2245623774801616189, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 78c8ac524e9f1b446a25217490dd4109, type: 2}
+    - target: {fileID: -1245732381354561849, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -998708227812776082, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 451101741931190486, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
       propertyPath: m_Name
       value: Vaso 3 florzinhas
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 974584544777506935, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 78c8ac524e9f1b446a25217490dd4109, type: 2}
+    - target: {fileID: 2891746525080496957, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5837523472550796488, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5922001041595979461, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7959026430977397170, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69d04a48e3f4aff469cd83bef7933151, type: 3}
 --- !u!1 &1124773067
@@ -4224,7 +4490,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1124773069}
   - component: {fileID: 1124773068}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: cenario
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4307,7 +4573,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1159178997}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vaso 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4341,7 +4607,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1175043684}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: "Lou\xE7as"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4495,7 +4761,7 @@ GameObject:
   - component: {fileID: 1234178673}
   - component: {fileID: 1234178672}
   - component: {fileID: 1234178671}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Parede (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4589,7 +4855,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1248298225}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vaso 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4642,7 +4908,7 @@ GameObject:
   - component: {fileID: 1292184394}
   - component: {fileID: 1292184393}
   - component: {fileID: 1292184392}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Parede (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4897,12 +5163,28 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4672927271302217132, guid: e856d32abf3f98241aa84c373be13753, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -4672927271302217132, guid: e856d32abf3f98241aa84c373be13753, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1018664272722485354, guid: e856d32abf3f98241aa84c373be13753, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e856d32abf3f98241aa84c373be13753, type: 3}
       propertyPath: m_Name
       value: Vaso 4 (semente)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e856d32abf3f98241aa84c373be13753, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5233112405309087440, guid: e856d32abf3f98241aa84c373be13753, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5233112405309087440, guid: e856d32abf3f98241aa84c373be13753, type: 3}
       propertyPath: m_IsActive
@@ -4912,6 +5194,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 29f9b32244df0134086d76e28f39e5d2, type: 2}
+    - target: {fileID: 8023775719659292346, guid: e856d32abf3f98241aa84c373be13753, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8821623529969584324, guid: e856d32abf3f98241aa84c373be13753, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8821623529969584324, guid: e856d32abf3f98241aa84c373be13753, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -4927,7 +5217,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1330310156}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vaso 12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4962,7 +5252,7 @@ GameObject:
   - component: {fileID: 1346824601}
   - component: {fileID: 1346824600}
   - component: {fileID: 1346824599}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vaso 12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5110,6 +5400,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8678334890876928072, guid: c853e4f9768a7db4c8e0eadfdfb244f0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -4672927271302217132, guid: c853e4f9768a7db4c8e0eadfdfb244f0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: -4672927271302217132, guid: c853e4f9768a7db4c8e0eadfdfb244f0, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -5118,13 +5416,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vaso 1 (sem girassol t-t) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c853e4f9768a7db4c8e0eadfdfb244f0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5233112405309087440, guid: c853e4f9768a7db4c8e0eadfdfb244f0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5233112405309087440, guid: c853e4f9768a7db4c8e0eadfdfb244f0, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8821623529969584324, guid: c853e4f9768a7db4c8e0eadfdfb244f0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8821623529969584324, guid: c853e4f9768a7db4c8e0eadfdfb244f0, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9022063724379732231, guid: c853e4f9768a7db4c8e0eadfdfb244f0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c853e4f9768a7db4c8e0eadfdfb244f0, type: 3}
@@ -5137,7 +5451,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1400031219}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collider cena
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5172,7 +5486,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1409789241}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vaso 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5205,7 +5519,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1426155308}
   - component: {fileID: 1426155309}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: flor (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5288,7 +5602,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1443030553}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vaso 11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5330,6 +5644,108 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -338967696066465413, guid: ff88b31af3194c24f957ea0c9267c92d, type: 3}
+--- !u!1 &1483127282
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1483127285}
+  - component: {fileID: 1483127284}
+  - component: {fileID: 1483127283}
+  m_Layer: 0
+  m_Name: CM vcam1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1483127283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483127282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e501d18bb52cf8c40b1853ca4904654f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CollideAgainst:
+    serializedVersion: 2
+    m_Bits: 64
+  m_IgnoreTag: Player
+  m_TransparentLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_MinimumDistanceFromTarget: 1
+  m_AvoidObstacles: 1
+  m_DistanceLimit: 0
+  m_MinimumOcclusionTime: 0
+  m_CameraRadius: 0.1
+  m_Strategy: 0
+  m_MaximumEffort: 4
+  m_SmoothingTime: 0
+  m_Damping: 0.6
+  m_DampingWhenOccluded: 0.6
+  m_OptimalTargetDistance: 0
+--- !u!114 &1483127284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483127282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ExcludedPropertiesInInspector:
+  - m_Script
+  m_LockStageInInspector: 
+  m_StreamingVersion: 20170927
+  m_Priority: 10
+  m_StandbyUpdate: 2
+  m_LookAt: {fileID: 1691421879}
+  m_Follow: {fileID: 1691421879}
+  m_Lens:
+    FieldOfView: 60
+    OrthographicSize: 5
+    NearClipPlane: 0.3
+    FarClipPlane: 1000
+    Dutch: 0
+    ModeOverride: 0
+    LensShift: {x: 0, y: 0}
+    GateFit: 2
+    m_SensorSize: {x: 1, y: 1}
+  m_Transitions:
+    m_BlendHint: 0
+    m_InheritPosition: 0
+    m_OnCameraLive:
+      m_PersistentCalls:
+        m_Calls: []
+  m_LegacyBlendHint: 0
+  m_ComponentOwner: {fileID: 808116124}
+--- !u!4 &1483127285
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483127282}
+  m_LocalRotation: {x: 0.15981266, y: 0.000000016985235, z: -0.0000000027497977, w: 0.9871474}
+  m_LocalPosition: {x: 0, y: 6.33, z: -16.03}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 808116124}
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1547122591 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c853e4f9768a7db4c8e0eadfdfb244f0, type: 3}
@@ -5411,10 +5827,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7842313514758120565, guid: ada6c8ee022bfa94f9ae5aa2e9a1a98f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -7640558969779515294, guid: ada6c8ee022bfa94f9ae5aa2e9a1a98f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -7146521406498821007, guid: ada6c8ee022bfa94f9ae5aa2e9a1a98f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -6589641707447759464, guid: ada6c8ee022bfa94f9ae5aa2e9a1a98f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: -6093592463355912122, guid: ada6c8ee022bfa94f9ae5aa2e9a1a98f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 115fee7328e95a349ad602e3e5c70365, type: 2}
+    - target: {fileID: -4714817154256824709, guid: ada6c8ee022bfa94f9ae5aa2e9a1a98f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -2115363334397318501, guid: ada6c8ee022bfa94f9ae5aa2e9a1a98f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: -1461304994638716399, guid: ada6c8ee022bfa94f9ae5aa2e9a1a98f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -5427,9 +5867,29 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 115fee7328e95a349ad602e3e5c70365, type: 2}
+    - target: {fileID: -516098083770646512, guid: ada6c8ee022bfa94f9ae5aa2e9a1a98f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ada6c8ee022bfa94f9ae5aa2e9a1a98f, type: 3}
       propertyPath: m_Name
       value: "Vaso 2 p\xE9 de morango"
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ada6c8ee022bfa94f9ae5aa2e9a1a98f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5162708928633427139, guid: ada6c8ee022bfa94f9ae5aa2e9a1a98f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8416272007918961125, guid: ada6c8ee022bfa94f9ae5aa2e9a1a98f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8821623529969584324, guid: ada6c8ee022bfa94f9ae5aa2e9a1a98f, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ada6c8ee022bfa94f9ae5aa2e9a1a98f, type: 3}
@@ -5443,7 +5903,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1618966378}
   - component: {fileID: 1618966379}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: plantinha (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5527,7 +5987,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1670672710}
   - component: {fileID: 1670672711}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: flor (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5773,7 +6233,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1795530817}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vaso 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5886,7 +6346,7 @@ GameObject:
   - component: {fileID: 1878765720}
   - component: {fileID: 1878765719}
   - component: {fileID: 1878765718}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Suco
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5980,7 +6440,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1892195176}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vaso 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6038,7 +6498,7 @@ GameObject:
   - component: {fileID: 1923844829}
   - component: {fileID: 1923844828}
   - component: {fileID: 1923844827}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor
   m_TagString: Floor
   m_Icon: {fileID: 0}
@@ -6216,7 +6676,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1992809387}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vasos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6260,7 +6720,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2037427121}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Plantas sobras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6295,7 +6755,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2043439237}
   - component: {fileID: 2043439236}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: regadorzinho
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6552,7 +7012,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2059069165}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vaso 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6660,7 +7120,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2081733552}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vaso 13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6692,7 +7152,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2098576217}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: NovosItens
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6777,6 +7237,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8678334890876928072, guid: c853e4f9768a7db4c8e0eadfdfb244f0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -4672927271302217132, guid: c853e4f9768a7db4c8e0eadfdfb244f0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: -4672927271302217132, guid: c853e4f9768a7db4c8e0eadfdfb244f0, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -6785,13 +7253,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vaso 1 (sem girassol t-t)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c853e4f9768a7db4c8e0eadfdfb244f0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5233112405309087440, guid: c853e4f9768a7db4c8e0eadfdfb244f0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5233112405309087440, guid: c853e4f9768a7db4c8e0eadfdfb244f0, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8821623529969584324, guid: c853e4f9768a7db4c8e0eadfdfb244f0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8821623529969584324, guid: c853e4f9768a7db4c8e0eadfdfb244f0, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9022063724379732231, guid: c853e4f9768a7db4c8e0eadfdfb244f0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c853e4f9768a7db4c8e0eadfdfb244f0, type: 3}
