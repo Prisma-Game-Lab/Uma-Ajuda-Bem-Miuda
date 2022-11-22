@@ -12,6 +12,9 @@ public class Cronometro : MonoBehaviour
     public int timeGoldenMedal;
     public int timeSilverMedal;
     public int timeBronzeMedal;
+    public GameObject GoldenMedal;
+    public GameObject SilverMedal;
+    public GameObject BronzeMedal;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,11 +31,11 @@ public class Cronometro : MonoBehaviour
     void CheckMedal()
     {
         if (timer < timeGoldenMedal) {
-            //mostra medalha de ouro
+            GoldenMedal.SetActive(true);
         } else if (timer < timeSilverMedal) {
-            //mostra medalha de prata
+            SilverMedal.SetActive(true);
         } else {
-            //mostra medalha de bronze
+            BronzeMedal.SetActive(true);
         }
     }
 }
