@@ -326,7 +326,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 235784941}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.6, y: -12.7, z: 7.9}
+  m_LocalPosition: {x: 0.6, y: -13.4, z: 7.9}
   m_LocalScale: {x: 50.62983, y: 25.451868, z: 40.771614}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -378,8 +378,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.0964319, y: 1, z: 1.1557869}
+  m_Center: {x: -0.0039937464, y: 0, z: 0.031511605}
 --- !u!23 &258746742
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1022,6 +1022,9 @@ MonoBehaviour:
   timeGoldenMedal: 0
   timeSilverMedal: 0
   timeBronzeMedal: 0
+  GoldenMedal: {fileID: 0}
+  SilverMedal: {fileID: 0}
+  BronzeMedal: {fileID: 0}
 --- !u!4 &646571387
 Transform:
   m_ObjectHideFlags: 0
@@ -2105,10 +2108,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
+  m_Radius: 0.6
+  m_Height: 2.1
   m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+  m_Center: {x: 0.00000004925952, y: 0, z: 0.007043166}
 --- !u!23 &894677989
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2392,8 +2395,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.0801446, y: 0.98378354, z: 1.1379546}
+  m_Center: {x: -0.008011593, y: -0.00810826, z: -0.023189733}
 --- !u!23 &1148559160
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3141,8 +3144,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.101571, y: 1, z: 1.1055131}
+  m_Center: {x: -0.00040669364, y: 0, z: 0.011944561}
 --- !u!23 &1453792540
 MeshRenderer:
   m_ObjectHideFlags: 0

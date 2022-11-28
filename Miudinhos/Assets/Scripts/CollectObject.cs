@@ -33,9 +33,8 @@ public class CollectObject : MonoBehaviour
                 pickedUp = true;
                 player.GetComponent<PlayerCarry>().isCarrying = true;
                 player.GetComponent<PlayerCarry>().objCarried = this.gameObject;
+                this.gameObject.GetComponent<SphereCollider>().enabled = false;
             }
-
-            this.gameObject.GetComponent<SphereCollider>().enabled = false;
         }
     }
 }
