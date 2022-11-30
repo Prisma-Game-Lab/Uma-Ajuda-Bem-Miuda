@@ -11,7 +11,7 @@ public class CollectObject : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        offset = new Vector3(0f, 2f, 0f);
+        offset = new Vector3(0f, 2.5f, 0f);
         pickedUp = false;
     }
 
