@@ -9772,7 +9772,6 @@ GameObject:
   - component: {fileID: 8907616077486908511}
   - component: {fileID: 1051652408930089088}
   - component: {fileID: 8907616077486908513}
-  - component: {fileID: 8907616077486908512}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -9901,6 +9900,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3896390628745546148}
+  - component: {fileID: 4420584363234317087}
   m_Layer: 0
   m_Name: Concha
   m_TagString: Untagged
@@ -9908,6 +9908,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &4420584363234317087
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4420584363234317086}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0708578, y: 8.5924425, z: 1.078392}
+  m_Center: {x: 12.600831, y: 8.892636, z: 12.557733}
 --- !u!1 &4444825877011400912
 GameObject:
   m_ObjectHideFlags: 0
@@ -10861,19 +10874,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4184996700637977643}
   m_Mesh: {fileID: -5495902117074765545, guid: 1abedf9e68c94494b80d18d4e3ed9f44, type: 3}
---- !u!65 &8907616077486908512
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4184996700637977643}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.0074595264, y: 0.006594329, z: 0.047972646}
-  m_Center: {x: 0.024844388, y: 0.0125186825, z: 0.02411176}
 --- !u!65 &8907616077486908513
 BoxCollider:
   m_ObjectHideFlags: 0
