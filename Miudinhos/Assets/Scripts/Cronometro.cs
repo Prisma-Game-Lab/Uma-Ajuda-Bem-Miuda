@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Cronometro : MonoBehaviour
 {
@@ -15,17 +16,25 @@ public class Cronometro : MonoBehaviour
     public GameObject GoldenMedal;
     public GameObject SilverMedal;
     public GameObject BronzeMedal;
+
+    public GameObject EndPanel;
+
+    private int minigame1_placed;
     // Start is called before the first frame update
     void Start()
     {
         timer = 0f;
+        timer_text.text = "+1 Minuto";
+
+        minigame1_placed = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
         timer += Time.deltaTime;
-        timer_text.text = string.Format("{0:00}:{1:00}", Mathf.Floor(timer / 60), timer%60);
+        setTimer();
+        CheckMinigame1();
     }
 
     void CheckMedal()
@@ -37,5 +46,38 @@ public class Cronometro : MonoBehaviour
         } else {
             BronzeMedal.SetActive(true);
         }
+    }
+
+    private void setTimer() 
+    {
+        if (timer >= 60)
+        {
+            timer_text.enabled = true;
+            timer = 0f;
+
+        } else if (timer >= 5) {
+
+            timer_text.enabled = false;
+        }
+
+    }
+
+    public void AddMinigame1()
+    {
+        minigame1_placed += 1;
+    }
+
+    private void CheckMinigame1()
+    {
+        if (minigame1_placed >= 5)
+        {
+            CheckMedal();
+            EndPanel.SetActive(true);
+        }
+    }
+
+    public void BackToMenu()
+    {
+        SceneManager.LoadScene("Menu");
     }
 }

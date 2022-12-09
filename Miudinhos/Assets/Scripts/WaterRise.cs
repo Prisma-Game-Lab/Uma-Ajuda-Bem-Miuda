@@ -45,7 +45,7 @@ public class WaterRise : MonoBehaviour
 
         } else if (other.gameObject.CompareTag("Floor"))
         {
-            speed = 0f;
+            isRising = false;
         }
     }
 }
