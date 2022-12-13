@@ -10,12 +10,15 @@ public class WaterRise : MonoBehaviour
     private GameObject player;
     private float currentSpeed;
     private float currentGravity;
+    private PlayerMove move;
     // Start is called before the first frame update
     void Start()
     {
         isRising = true;
         player = GameObject.FindGameObjectWithTag("Player");
         currentSpeed = player.GetComponent<PlayerMove>().playerSpeed;
+
+        move = player.GetComponent<PlayerMove>();
     }
 
     // Update is called once per frame
@@ -31,8 +34,8 @@ public class WaterRise : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            player.GetComponent<PlayerMove>().playerSpeed = currentSpeed / 2;
-            player.GetComponent<PlayerMove>().gravityValue = -6f;
+            move.playerSpeed = currentSpeed / 2;
+            move.gravityValue = -6f;
         }
     }
 
@@ -40,8 +43,8 @@ public class WaterRise : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            player.GetComponent<PlayerMove>().playerSpeed = currentSpeed;
-            player.GetComponent<PlayerMove>().gravityValue = -9.81f;
+            move.playerSpeed = currentSpeed;
+            move.gravityValue = -9.81f;
 
         } else if (other.gameObject.CompareTag("Floor"))
         {
