@@ -25,6 +25,7 @@ public class Cronometro : MonoBehaviour
     {
         timer = 0f;
         timer_text.text = "+1 Minuto";
+        timer_text.enabled = false;
 
         minigame1_placed = 0;
     }
@@ -71,8 +72,8 @@ public class Cronometro : MonoBehaviour
     {
         if (minigame1_placed >= 5)
         {
-            CheckMedal();
             EndPanel.SetActive(true);
+            CheckMedal();
         }
     }
 
