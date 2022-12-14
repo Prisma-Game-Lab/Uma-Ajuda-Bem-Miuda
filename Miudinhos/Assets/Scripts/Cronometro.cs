@@ -6,8 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class Cronometro : MonoBehaviour
 {
-    public Text timer_text;
-    [HideInInspector]public float timer;
+    public Image timer_text;
+    public Image go;
+    private bool firstfivesecs;
+
+    public float timer;
 
     [Header("Tempo para as medalhas (segundos)")]
     public int timeGoldenMedal;
@@ -24,8 +27,7 @@ public class Cronometro : MonoBehaviour
     void Start()
     {
         timer = 0f;
-        timer_text.text = "+1 Minuto";
-        timer_text.enabled = false;
+        timer_text.gameObject.SetActive(false);
         Time.timeScale = 1f;
 
         minigame1_placed = 0;
@@ -37,6 +39,10 @@ public class Cronometro : MonoBehaviour
         timer += Time.deltaTime;
         setTimer();
         CheckMinigame1();
+        if (firstfivesecs && timer <= 3)
+        {
+            go.gameObject.SetActive(true);
+        }
     }
 
     void CheckMedal()
@@ -50,18 +56,19 @@ public class Cronometro : MonoBehaviour
         }
     }
 
-    private void setTimer() 
+    private void setTimer()
     {
         if (timer >= 60)
         {
-            timer_text.enabled = true;
+            timer_text.gameObject.SetActive(true);
             timer = 0f;
-
-        } else if (timer >= 5) {
-
-            timer_text.enabled = false;
         }
-
+        else if (timer >= 5)
+        {
+            timer_text.gameObject.SetActive(false);
+            go.gameObject.SetActive(false);
+            firstfivesecs = false;
+        }
     }
 
     public void AddMinigame1()
@@ -74,8 +81,8 @@ public class Cronometro : MonoBehaviour
         if (minigame1_placed >= 5)
         {
             EndPanel.SetActive(true);
-            CheckMedal();
             Time.timeScale = 0f;
+            CheckMedal();
         }
     }
 
