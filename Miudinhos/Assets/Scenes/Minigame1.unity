@@ -9233,9 +9233,9 @@ MonoBehaviour:
   timer_text: {fileID: 1185108306}
   go: {fileID: 1494084381}
   timer: 0
-  timeGoldenMedal: 0
-  timeSilverMedal: 0
-  timeBronzeMedal: 0
+  timeGoldenMedal: 60
+  timeSilverMedal: 90
+  timeBronzeMedal: 120
   GoldenMedal: {fileID: 0}
   SilverMedal: {fileID: 0}
   BronzeMedal: {fileID: 0}
