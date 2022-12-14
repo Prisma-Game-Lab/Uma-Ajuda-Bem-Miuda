@@ -11,6 +11,7 @@ public class SceneSwitch : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             gameManager.GetComponent<GameEnder>().CheckMinigame2();
+            Time.timeScale = 0f;
         }
     }
 }

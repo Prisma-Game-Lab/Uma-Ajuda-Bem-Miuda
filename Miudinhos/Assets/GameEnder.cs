@@ -7,7 +7,9 @@ using UnityEngine.SceneManagement;
 public class GameEnder : MonoBehaviour
 {
     public Image timer_text;
-    [HideInInspector] public float timer;
+    public Image go;
+    private bool firstfivesecs;
+    public float timer;
 
     [Header("Tempo para as medalhas (segundos)")]
     public int timeGoldenMedal;
@@ -24,7 +26,9 @@ public class GameEnder : MonoBehaviour
     void Start()
     {
         timer = 0f;
-        timer_text.enabled = false;
+        timer_text.gameObject.SetActive(false);
+        go.gameObject.SetActive(true);
+        firstfivesecs = true;
         Time.timeScale = 1f;
     }
 
@@ -33,6 +37,10 @@ public class GameEnder : MonoBehaviour
     {
         timer += Time.deltaTime;
         setTimer();
+        if(firstfivesecs && timer <= 3)
+        {
+            go.gameObject.SetActive(true);
+        }
     }
 
     void CheckMedal()
@@ -55,12 +63,14 @@ public class GameEnder : MonoBehaviour
     {
         if (timer >= 60)
         {
-            timer_text.enabled = true;
+            timer_text.gameObject.SetActive(true);
             timer = 0f;
         }
         else if (timer >= 5)
         {
-            timer_text.enabled = false;
+            timer_text.gameObject.SetActive(false);
+            go.gameObject.SetActive(false);
+            firstfivesecs = false;
         }
     }
 
