@@ -4,10 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class Cronometro : MonoBehaviour
+public class GameEnder : MonoBehaviour
 {
-    public Text timer_text;
-    [HideInInspector]public float timer;
+    public Image timer_text;
+    [HideInInspector] public float timer;
 
     [Header("Tempo para as medalhas (segundos)")]
     public int timeGoldenMedal;
@@ -19,16 +19,13 @@ public class Cronometro : MonoBehaviour
 
     public GameObject EndPanel;
 
-    private int minigame1_placed;
+
     // Start is called before the first frame update
     void Start()
     {
         timer = 0f;
-        timer_text.text = "+1 Minuto";
         timer_text.enabled = false;
         Time.timeScale = 1f;
-
-        minigame1_placed = 0;
     }
 
     // Update is called once per frame
@@ -36,47 +33,42 @@ public class Cronometro : MonoBehaviour
     {
         timer += Time.deltaTime;
         setTimer();
-        CheckMinigame1();
     }
 
     void CheckMedal()
     {
-        if (timer < timeGoldenMedal) {
+        if (timer < timeGoldenMedal)
+        {
             GoldenMedal.SetActive(true);
-        } else if (timer < timeSilverMedal) {
+        }
+        else if (timer < timeSilverMedal)
+        {
             SilverMedal.SetActive(true);
-        } else {
+        }
+        else
+        {
             BronzeMedal.SetActive(true);
         }
     }
 
-    private void setTimer() 
+    private void setTimer()
     {
         if (timer >= 60)
         {
             timer_text.enabled = true;
             timer = 0f;
-
-        } else if (timer >= 5) {
-
+        }
+        else if (timer >= 5)
+        {
             timer_text.enabled = false;
         }
-
     }
 
-    public void AddMinigame1()
+    public void CheckMinigame2()
     {
-        minigame1_placed += 1;
-    }
-
-    private void CheckMinigame1()
-    {
-        if (minigame1_placed >= 5)
-        {
-            EndPanel.SetActive(true);
-            CheckMedal();
-            Time.timeScale = 0f;
-        }
+        EndPanel.SetActive(true);
+        CheckMedal();
+        Time.timeScale = 0f;
     }
 
     public void BackToMenu()

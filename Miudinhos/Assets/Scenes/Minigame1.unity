@@ -3653,7 +3653,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 834766464}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 867079d2ea7a8f344a0ac2d41ee1eb0b, type: 3}
   m_Name: 
@@ -3717,7 +3717,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 834766464}
-  m_LocalRotation: {x: 0.15981266, y: -0.000000016985235, z: 0.0000000027497977, w: 0.9871474}
+  m_LocalRotation: {x: 0.15981266, y: 0.000000016985235, z: -0.0000000027497977, w: 0.9871474}
   m_LocalPosition: {x: 0, y: 6.33, z: -16.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3732,7 +3732,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 834766464}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
   m_Name: 
@@ -6742,7 +6742,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1483127282}
-  m_LocalRotation: {x: 0.15981266, y: -0.000000016985235, z: 0.0000000027497977, w: 0.9871474}
+  m_LocalRotation: {x: 0.15981266, y: 0.000000016985235, z: -0.0000000027497977, w: 0.9871474}
   m_LocalPosition: {x: 0, y: 6.33, z: -16.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -7465,6 +7465,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   groundedPlayer: 0
   playerSpeed: 10
+  rotationSpeed: 720
   jumpHeight: 3
   gravityValue: -15
 --- !u!114 &1691421875

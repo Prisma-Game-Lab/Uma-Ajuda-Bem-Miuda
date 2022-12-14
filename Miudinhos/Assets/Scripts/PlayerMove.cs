@@ -10,6 +10,7 @@ public class PlayerMove : MonoBehaviour
     private Vector3 playerVelocity;
     public bool groundedPlayer;
     public float playerSpeed = 2.0f;
+    public float rotationSpeed = 720.0f;
     public float jumpHeight = 1.0f;
     public float gravityValue = -9.81f;
 
@@ -48,6 +49,13 @@ public class PlayerMove : MonoBehaviour
         Vector2 input = playerInput.actions["Move"].ReadValue<Vector2>();
         Vector3 move = new Vector3(input.x, 0f, input.y);
         controller.Move(move * Time.deltaTime * playerSpeed);
+        
+        if (move != Vector3.zero)
+        {
+            this.gameObject.transform.forward = -move;
+            //Quaternion toRotation = Quaternion.LookRotation(-move, Vector3.up);
+            //controller.transform.rotation = Quaternion.RotateTowards(controller.transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
+        }
 
     } 
 }

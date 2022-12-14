@@ -5,8 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwitch : MonoBehaviour
 {
+    public GameObject gameManager;
     void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene(1); 
+        if (other.gameObject.CompareTag("Player"))
+        {
+            gameManager.GetComponent<GameEnder>().CheckMinigame2();
+        }
     }
 }
