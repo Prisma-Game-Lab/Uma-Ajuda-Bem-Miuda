@@ -21,6 +21,7 @@ public class Cronometro : MonoBehaviour
     public GameObject BronzeMedal;
 
     public GameObject EndPanel;
+    public GameObject pausePanel;
 
     private int minigame1_placed;
     // Start is called before the first frame update
@@ -29,6 +30,7 @@ public class Cronometro : MonoBehaviour
         timer = 0f;
         timer_text.gameObject.SetActive(false);
         Time.timeScale = 1f;
+        firstfivesecs = true;
 
         minigame1_placed = 0;
     }
@@ -89,5 +91,17 @@ public class Cronometro : MonoBehaviour
     public void BackToMenu()
     {
         SceneManager.LoadScene("Menu");
+    }
+
+    public void Pause()
+    {
+        Time.timeScale = 0f;
+        pausePanel.SetActive(true);
+    }
+
+    public void Unpause()
+    {
+        pausePanel.SetActive(false);
+        Time.timeScale = 1f;
     }
 }

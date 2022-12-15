@@ -20,6 +20,7 @@ public class GameEnder : MonoBehaviour
     public GameObject BronzeMedal;
 
     public GameObject EndPanel;
+    public GameObject pausePanel;
 
 
     // Start is called before the first frame update
@@ -84,5 +85,17 @@ public class GameEnder : MonoBehaviour
     public void BackToMenu()
     {
         SceneManager.LoadScene("Menu");
+    }
+
+    public void Pause()
+    {
+        Time.timeScale = 0f;
+        pausePanel.SetActive(true);
+    }
+
+    public void Unpause()
+    {
+        pausePanel.SetActive(false);
+        Time.timeScale = 1f;
     }
 }
