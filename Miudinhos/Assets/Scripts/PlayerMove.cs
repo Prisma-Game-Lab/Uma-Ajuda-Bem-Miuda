@@ -20,6 +20,7 @@ public class PlayerMove : MonoBehaviour
         controller.minMoveDistance = 0;
 
         playerInput = gameObject.GetComponent<PlayerInput>();
+        
     }
 
     //Trata dos pulos do player
@@ -35,14 +36,17 @@ public class PlayerMove : MonoBehaviour
         if (playerInput.actions["Jump"].triggered && groundedPlayer)
         {
             playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
+
+            FindObjectOfType<AudioManager>().Play("Jump");
         }
 
         playerVelocity.y += gravityValue * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);
         groundedPlayer = controller.isGrounded;
+        
     }
 
-    //Trata da movimentação
+    //Trata da movimentaï¿½ï¿½o
     void FixedUpdate()
     {
 
@@ -50,9 +54,12 @@ public class PlayerMove : MonoBehaviour
         Vector3 move = new Vector3(input.x, 0f, input.y);
         controller.Move(move * Time.deltaTime * playerSpeed);
         
+        
         if (move != Vector3.zero)
         {
             this.gameObject.transform.forward = -move;
+            
+           
             //Quaternion toRotation = Quaternion.LookRotation(-move, Vector3.up);
             //controller.transform.rotation = Quaternion.RotateTowards(controller.transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
         }
