@@ -34,6 +34,7 @@ public class CollectObject : MonoBehaviour
                 player.GetComponent<PlayerCarry>().isCarrying = true;
                 player.GetComponent<PlayerCarry>().objCarried = this.gameObject;
                 this.gameObject.GetComponent<SphereCollider>().enabled = false;
+                FindObjectOfType<AudioManager>().Play("Get");
             }
         }
     }

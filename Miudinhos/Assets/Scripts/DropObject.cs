@@ -45,6 +45,8 @@ public class DropObject : MonoBehaviour
                     this.gameObject.GetComponent<SphereCollider>().enabled = false;
 
                     cronom.AddMinigame1();
+                    
+                    FindObjectOfType<AudioManager>().Play("Drop");
                 }
             }
 

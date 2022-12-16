@@ -1,11 +1,15 @@
 using UnityEngine.Audio;
+using UnityEngine.SceneManagement;
 using System;
 using UnityEngine;
+
 
 public class AudioManager : MonoBehaviour
 {
     public Sound[] sounds;
     public string s;
+    private Scene scene;
+    private string nameScene;
     void Awake()
     {   
 
@@ -22,9 +26,27 @@ public class AudioManager : MonoBehaviour
     //Ativa a musica tema da cena
     void Start()
     {
-        Play("Garden'sTheme");
-        if (s == null)
-            return;
+        scene =  SceneManager.GetActiveScene();
+        nameScene = scene.name;
+
+        if(nameScene == "Menu")
+        {
+            Play("Garden'sTheme");
+            if (s == null)
+                return;
+        }
+        else if(nameScene == "Minigame1")
+        {
+            Play("Garden'sTheme");
+            if (s == null)
+                return;
+        }
+        else
+        {
+            Play("Sink'sTheme");
+            if(s == null)
+                return;
+        }
     }
 
     public void Play (string name)
