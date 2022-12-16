@@ -22,11 +22,12 @@ public class GameEnder : MonoBehaviour
     public GameObject EndPanel;
     public GameObject pausePanel;
 
-
+    private float total_time;
     // Start is called before the first frame update
     void Start()
     {
         timer = 0f;
+        total_time = 0f;
         timer_text.gameObject.SetActive(false);
         go.gameObject.SetActive(true);
         firstfivesecs = true;
@@ -37,6 +38,7 @@ public class GameEnder : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
+        total_time += Time.deltaTime;
         setTimer();
         if(firstfivesecs && timer <= 3)
         {
@@ -46,11 +48,11 @@ public class GameEnder : MonoBehaviour
 
     void CheckMedal()
     {
-        if (timer < timeGoldenMedal)
+        if (total_time < timeGoldenMedal)
         {
             GoldenMedal.SetActive(true);
         }
-        else if (timer < timeSilverMedal)
+        else if (total_time < timeSilverMedal)
         {
             SilverMedal.SetActive(true);
         }
