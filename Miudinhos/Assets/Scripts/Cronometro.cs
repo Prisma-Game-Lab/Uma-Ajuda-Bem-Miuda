@@ -24,10 +24,12 @@ public class Cronometro : MonoBehaviour
     public GameObject pausePanel;
 
     private int minigame1_placed;
+    private float total_time;
     // Start is called before the first frame update
     void Start()
     {
         timer = 0f;
+        total_time = 0f;
         timer_text.gameObject.SetActive(false);
         Time.timeScale = 1f;
         firstfivesecs = true;
@@ -39,6 +41,7 @@ public class Cronometro : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
+        total_time += Time.deltaTime;
         setTimer();
         CheckMinigame1();
         if (firstfivesecs && timer <= 3)
@@ -49,9 +52,9 @@ public class Cronometro : MonoBehaviour
 
     void CheckMedal()
     {
-        if (timer < timeGoldenMedal) {
+        if (total_time < timeGoldenMedal) {
             GoldenMedal.SetActive(true);
-        } else if (timer < timeSilverMedal) {
+        } else if (total_time < timeSilverMedal) {
             SilverMedal.SetActive(true);
         } else {
             BronzeMedal.SetActive(true);
