@@ -13,7 +13,7 @@ public class PlayerMove : MonoBehaviour
     public float rotationSpeed = 720.0f;
     public float jumpHeight = 1.0f;
     public float gravityValue = -9.81f;
-
+    [SerializeField] private float speed = 2f;
     private void Start()
     {
         controller = gameObject.AddComponent<CharacterController>();
@@ -43,7 +43,9 @@ public class PlayerMove : MonoBehaviour
         playerVelocity.y += gravityValue * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);
         groundedPlayer = controller.isGrounded;
-        
+
+
+
     }
 
     //Trata da movimenta��o
