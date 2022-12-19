@@ -21,6 +21,7 @@ public class GameEnder : MonoBehaviour
 
     public GameObject EndPanel;
     public GameObject pausePanel;
+    public Text endText;
 
     private float total_time;
     // Start is called before the first frame update
@@ -79,6 +80,7 @@ public class GameEnder : MonoBehaviour
 
     public void CheckMinigame2()
     {
+        endText.text = string.Format("Completou em {0:00}:{1:00}", Mathf.Floor(total_time / 60), total_time % 60);
         EndPanel.SetActive(true);
         CheckMedal();
         Time.timeScale = 0f;

@@ -22,6 +22,7 @@ public class Cronometro : MonoBehaviour
 
     public GameObject EndPanel;
     public GameObject pausePanel;
+    public Text endText;
 
     private int minigame1_placed;
     private float total_time;
@@ -85,6 +86,7 @@ public class Cronometro : MonoBehaviour
     {
         if (minigame1_placed >= 5)
         {
+            endText.text = string.Format("Completou em {0:00}:{1:00}", Mathf.Floor(total_time / 60), total_time % 60);
             EndPanel.SetActive(true);
             Time.timeScale = 0f;
             CheckMedal();
